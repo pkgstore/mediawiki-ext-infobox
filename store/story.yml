@@ -1,0 +1,41 @@
+icon: 'fas fa-book'
+property: 'Book'
+field:
+  author:
+    property: 'author'
+  congress:
+    property: ''
+  country:
+    property: ''
+  cover-artist:
+    property: ''
+  release-date:
+    property: 'datePublished'
+  dewey:
+    property: ''
+  genre:
+    property: 'genre'
+  illustrator:
+    property: 'illustrator'
+  isbn:
+    property: 'isbn'
+  language:
+    property: 'inLanguage'
+  format:
+    property: 'bookFormat'
+  oclc:
+    property: ''
+  pages:
+    property: 'numberOfPages'
+  publisher:
+    property: 'publisher'
+  series:
+    property: ''
+  translator:
+    property: 'translator'
+  price:
+    property: 'Price'
+  license:
+    property: 'license'
+  url:
+    property: 'url'

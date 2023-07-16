@@ -1,0 +1,46 @@
+{
+  "name": "pkgstore/mediawiki-ext-infobox",
+  "type": "mediawiki-extension",
+  "description": "MediaWiki InfoBox extension.",
+  "license": "MIT",
+  "homepage": "https://ihub.to/",
+  "keywords": [
+    "mediawiki",
+    "infobox"
+  ],
+  "authors": [
+    {
+      "name": "iHub TO",
+      "email": "mail@ihub.to",
+      "homepage": "https://ihub.to/",
+      "role": "Developer"
+    },
+    {
+      "name": "Kitsune Solar",
+      "email": "mail@kitsune.solar",
+      "homepage": "https://kitsune.solar/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pkgstore/mediawiki-ext-infobox/issues",
+    "source": "https://github.com/pkgstore/mediawiki-ext-infobox"
+  },
+  "require": {
+    "composer/installers": "^1.0.1",
+    "php": ">=8.2",
+    "pkgstore/mediawiki-ext-kernel": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "MW_EXT_InfoBox.class.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "prepend-autoloader": false
+  },
+  "extra": {
+    "installer-name": "MW_EXT_InfoBox"
+  }
+}

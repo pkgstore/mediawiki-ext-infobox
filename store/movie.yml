@@ -1,0 +1,31 @@
+icon: 'fas fa-film'
+property: 'Movie'
+field:
+  budget:
+    property: ''
+  cinematography:
+    property: ''
+  country:
+    property: ''
+  date-release:
+    property: ''
+  director:
+    property: ''
+  distributor:
+    property: ''
+  genre:
+    property: ''
+  gross:
+    property: ''
+  imdb:
+    property: ''
+  music:
+    property: ''
+  producer:
+    property: ''
+  runtime:
+    property: ''
+  starring:
+    property: ''
+  writer:
+    property: ''

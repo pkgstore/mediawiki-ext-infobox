@@ -1,0 +1,31 @@
+icon: 'fas fa-cube'
+property: ''
+field:
+  changelog:
+    property: ''
+  compatibility:
+    property: ''
+  update-date:
+    property: ''
+  developer:
+    property: ''
+  download:
+    property: ''
+  example:
+    property: ''
+  issue:
+    property: ''
+  language:
+    property: ''
+  license:
+    property: ''
+  readme:
+    property: ''
+  require:
+    property: ''
+  status:
+    property: ''
+  url:
+    property: ''
+  version:
+    property: ''

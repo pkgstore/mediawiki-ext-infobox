@@ -1,0 +1,15 @@
+icon: 'fas fa-globe'
+property: ''
+field:
+  audience:
+    property: ''
+  creator:
+    property: ''
+  launch-date:
+    property: ''
+  owner:
+    property: ''
+  slogan:
+    property: ''
+  url:
+    property: ''

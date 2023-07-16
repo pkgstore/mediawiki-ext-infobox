@@ -1,0 +1,55 @@
+{
+  "name": "MW_EXT_InfoBox",
+  "version": "1.0.0",
+  "author": [
+    "[https://ihub.to/ iHub TO]",
+    "[https://kitsune.solar/ Kitsune Solar]",
+    "..."
+  ],
+  "url": "https://ihub.to/",
+  "descriptionmsg": "mw-infobox-desc",
+  "license-name": "[https://choosealicense.com/licenses/mit/ MIT]",
+  "type": "parserhook",
+  "require": {
+    "MediaWiki": ">= 1.31.0",
+    "extensions": {
+      "MW_EXT_Kernel": "*"
+    }
+  },
+  "AutoloadClasses": {
+    "MediaWiki\\Extension\\PkgStore\\MW_EXT_InfoBox": "MW_EXT_InfoBox.class.php"
+  },
+  "Hooks": {
+    "ParserFirstCallInit": [
+      "MediaWiki\\Extension\\PkgStore\\MW_EXT_InfoBox::onParserFirstCallInit"
+    ],
+    "BeforePageDisplay": [
+      "MediaWiki\\Extension\\PkgStore\\MW_EXT_InfoBox::onBeforePageDisplay"
+    ]
+  },
+  "ExtensionMessagesFiles": {
+    "MW_EXT_InfoBoxMagic": "MW_EXT_InfoBox.i18n.magic.php"
+  },
+  "MessagesDirs": {
+    "MW_EXT_InfoBox": [
+      "i18n"
+    ]
+  },
+  "ResourceModules": {
+    "ext.mw.infobox.styles": {
+      "styles": [
+        "styles/theme.css"
+      ],
+      "position": "top",
+      "targets": [
+        "desktop",
+        "mobile"
+      ]
+    }
+  },
+  "ResourceFileModulePaths": {
+    "localBasePath": "modules",
+    "remoteExtPath": "MW_EXT_InfoBox/modules"
+  },
+  "manifest_version": 2
+}
